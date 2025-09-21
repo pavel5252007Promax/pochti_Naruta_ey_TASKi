@@ -9,7 +9,7 @@ public class task6{
     float stepen = 1;
     for (int k = 1; k <= n; k++){
       fac *= k;
-      sumaEpta += (stepen * x) * fac;
+      sumaEpta += float (stepen * x) * fac;
       stepen *= x;
       
       
